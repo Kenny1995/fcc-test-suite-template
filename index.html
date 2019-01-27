@@ -21,56 +21,80 @@
 
         <tr>
           <th>*Name</th>
+          <td>
+            <input type="name" name="name" id="name" placeholder="name" required>
+          </td>
+        </tr>
+        <tr>
           <th>*Email</th>
-          <th>*Age</th>
-          <th>Which option best describes your current role?</th>
-          <th>How likely is that you would recommend freeCodeCamp to a friend?</th>
-          <th>What do you like most in FCC:</th>
-          <th>Things that should be improved in the future
-            (Check all that apply):</th>
-          <th>Any Comments or Suggestions?</th>
+          <td>
+            <input type="email" name="email" id="email" placeholder="email" required>
+          </td>
         </tr>
 
         <tr>
+          <th>*Age</th>
           <td>
-            <label for="name" id="name-label">Enter your name</label>
-            <input type="name" name="name" id="name" placeholder="name" required>
-          </td>
-          <td>
-            <label for="email" id="email-label">Enter your email</label>
-            <input type="email" name="email" id="email" placeholder="email" required>
-          </td>
-          <td>
-            <label for="number" id="number-label">Enter your number</label>
             <input type="number" name="number" id="number" placeholder="number" min="10" max="999999999">
           </td>
+        </tr>
+
+        <tr>
+          <th>Which option best describes your current role?</th>
           <td>
             <select id="dropdown">
               <option></option>
               <option></option>
             </select>
           </td>
+
+        </tr>
+
+        <tr>
+          <th>How likely is that you would recommend freeCodeCamp to a friend?</th>
           <td>
             <input type="radio" value="Definietly" name="group1">
             <input type="radio" value="Maybe" name="group1">
             <input type="radio" value="Not sure" name="group1">
           </td>
+        </tr>
+
+        <tr>
+          <th>What do you like most in FCC:</th>
+
+        </tr>
+
+        <tr>
+          <th>Things that should be improved in the future
+            (Check all that apply):</th>
           <td>
             <input type="checkbox" value="Front-end Projects">
             <input type="checkbox" value="Back-end Projects">
             <input type="checkbox" value="Data Visualization">
             <input type="checkbox" value="Challenges">
           </td>
+        </tr>
+
+        <tr>
+          <th>Any Comments or Suggestions?</th>
           <td>
             <textarea>Default value</textarea>
           </td>
-          <td>
-            <input type="submit" value="Submit" id="submit">
-          </td>
-
-
-          <!-- Put your code here-->
         </tr>
+        <tr>
+          <th>
+            <input type="submit" value="Submit" id="submit">
+          </th>
+        </tr>
+
+
+
+
+
+
+
+        </tr>
+
 
       </form>
     </table>
