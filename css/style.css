@@ -1,14 +1,41 @@
-* {
-    margin: 0;
-    padding:0;
-    background-color: cadetblue;
+body {
+    background: rgb(120,173,200);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#title{
+    text-align: center;
+}
 
-#content {
-    display: block;
+#description {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+}
+
+table, td{
+    
+    text-align: right;
+
+}
+
+td {
+    padding: 30px;    
+}
+table {
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
     width: 70%;
-    margin: 20px auto;
-    border-width: 10px;
-    background-color:white;
 }
+
+input[type=name], input[type=email], input[type=number], textarea, select {
+    padding: 12px 20px;
+    width: 600px;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
