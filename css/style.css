@@ -12,15 +12,11 @@
 #welcome-section {
     height: 100vh;
     text-align: center;
-    margin: 20% auto;
-
-
-}
-
-
-#navbar,
-#welcome-section {
+    margin: 0% auto;
+    padding-top: 30%;
     background-color: aquamarine;
+
+
 }
 
 #navbar {
