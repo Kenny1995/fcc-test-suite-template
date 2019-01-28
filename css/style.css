@@ -13,7 +13,6 @@
     height: 100vh;
     text-align: center;
     margin: 0% auto;
-    padding-top: 30%;
     background-color: aquamarine;
 
 
@@ -21,8 +20,10 @@
 
 #navbar {
     position: fixed;
-    top: 10px;
+    top: 0px;
     display: block;
+    height: 40px;
+    padding-top: 20px;
 }
 
 #navbar ul {
@@ -38,6 +39,10 @@
 
 .first-link {
     margin-left: 100px;
+}
+
+.heading {
+    padding-top: 30%;
 }
 
 
