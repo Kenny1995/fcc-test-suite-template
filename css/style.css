@@ -16,20 +16,43 @@ nav {
         background-color: lightblue;
     }
 }
+
 #header-img {
     width: 600px;
     height: 110px;
 }
-#nav-bar{
+
+#nav-bar {
     float: right;
     clear: both;
     margin-right: 10%;
     margin-top: 5%;
 }
-.nav-link{
+
+.nav-link {
     margin-right: 20px;
     text-decoration: none;
 }
-#form{
-    margin: 0 auto;
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+}
+
+#submit {
+    margin-top: 10px;
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
 }
