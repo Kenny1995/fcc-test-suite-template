@@ -15,25 +15,27 @@
         id="header-img"
       />
       <nav id="nav-bar">
-        <a href="#video" class="nav-link"></a>
-        <a href="#audio" class="nav-link"></a>
-        <a href="#form" class="nav-link"></a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#audio" class="nav-link">Audio</a>
+        <a href="#form" class="nav-link">Form</a>
       </nav>
     </header>
-    <VIDEO id="video" id="video">
-      <source src="movie.mp4" type="video/mp4" />
-    </VIDEO>
-    <audio src="movie.mp3" id="audio"></audio>
     <form action="https://www.freecodecamp.com/email-submit" id="form">
       <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Enter an Email"
-        required
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter an Email"
+              required
       />
       <input type="submit" value="submit" id="submit" />
     </form>
+    <VIDEO id="video" controls>
+      <source src="movie.mp4" type="video/mp4" />
+
+    </VIDEO>
+    <audio src="movie.mp3" id="audio"></audio>
+
     <script src="js/index.js"></script>
   </body>
 </html>

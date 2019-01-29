@@ -16,3 +16,20 @@ nav {
         background-color: lightblue;
     }
 }
+#header-img {
+    width: 600px;
+    height: 110px;
+}
+#nav-bar{
+    float: right;
+    clear: both;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.nav-link{
+    margin-right: 20px;
+    text-decoration: none;
+}
+#form{
+    margin: 0 auto;
+}
