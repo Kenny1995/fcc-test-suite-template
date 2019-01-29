@@ -29,6 +29,7 @@
 #navbar ul {
     display: flex;
     list-style: none;
+
 }
 
 #navbar ul li a {
@@ -41,7 +42,7 @@
     margin-left: 100px;
 }
 
-.heading {
+.heading1 {
     padding-top: 30%;
 }
 
